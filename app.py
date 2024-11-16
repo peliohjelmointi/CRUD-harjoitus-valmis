@@ -6,8 +6,8 @@ app = Flask (__name__) # __name__ n paikalle menee tiedoston nimen etuosa
 
 client = connect()
 
-db=client["taskDBB"] #huom. luo jos ei löydy
-coll=db["task_collectionn"]# luo jos ei löydy
+db=client["taskDB"] #huom. luo jos ei löydy
+coll=db["task_collection"]# luo jos ei löydy
 
 
 @app.route('/')
